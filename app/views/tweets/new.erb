@@ -1,6 +1,8 @@
-<h2>Create New Tweet</h2>
-
-<form action="/tweets" method="post">
-  <label for="content">Tweet Content: <input type="text" name="content">
-  <input type="submit" name="submit" id="submit" value="Create New Tweet">
+<<form action="/tweets" method="post">
+  <h1>New Tweet</h1>
+  <div class="form-group">
+    <label for="content">Tweet content:</label>
+    <textarea class="form-control" name="content" id="content" rows="4" ></textarea>
+  </div>
+  <input class="btn btn-lg btn-primary" type="submit" value="Submit" id="submit">
 </form>
